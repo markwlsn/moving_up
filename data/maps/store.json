@@ -1,0 +1,39 @@
+{
+  "id": "store",
+  "name": "Tindahan ni Aling Nena",
+  "tileSize": 16,
+  "width": 12,
+  "height": 9,
+  "spawn": {
+    "tileX": 5,
+    "tileY": 7
+  },
+  "legend": {
+    "W": "wall",
+    ".": "floor",
+    "#": "fence",
+    "C": "counter",
+    "R": "rug",
+    "D": "door"
+  },
+  "rows": [
+    "WWWWWWWWWWWW",
+    "W##########W",
+    "W...CCCC...W",
+    "W..........W",
+    "W....RR....W",
+    "W....RR....W",
+    "W..........W",
+    "W..........W",
+    "WWWWWDWWWWWW"
+  ],
+  "warps": [
+    {
+      "tileX": 5,
+      "tileY": 8,
+      "targetMap": "village",
+      "targetTileX": 5,
+      "targetTileY": 12
+    }
+  ]
+}

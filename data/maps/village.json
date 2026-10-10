@@ -1,0 +1,64 @@
+{
+  "id": "village",
+  "name": "Barangay Maliwanag",
+  "tileSize": 16,
+  "width": 30,
+  "height": 25,
+  "spawn": {
+    "tileX": 14,
+    "tileY": 1
+  },
+  "legend": {
+    "T": "tree",
+    ".": "grass",
+    "=": "path",
+    "H": "house",
+    "D": "door",
+    "W": "water",
+    "R": "rock",
+    "B": "bayanihan"
+  },
+  "rows": [
+    "TTTTTTTTTTTTTT=TTTTTTTTTTTTTTT",
+    "T.............=..............T",
+    "T.............=..............T",
+    "T...HHHHHH....=....HHHHHH....T",
+    "T...HHHHHH....=....HHHHHH....T",
+    "T...HHHHHH....=....HHHHHH....T",
+    "T...HHDHHH....=....HHDHHH....T",
+    "T.....=.......=.......=......T",
+    "T..HHHHHH.....=.......=......T",
+    "T..HHHHHH.....=.......=......T",
+    "T..HHHHHH.....=.......=......T",
+    "T..HHDHHH.....=.......=......T",
+    "T....=........=B......=......T",
+    "T.==========================.T",
+    "T....=........=.......=......T",
+    "T....=.....WWWWWWW....=......T",
+    "T....=.....WWWWWWW....=......T",
+    "T....=.....WWWWWWW....=......T",
+    "T....=........=.......=......T",
+    "T....=........=.......=......T",
+    "T..T.=.T......=......T.=.T...T",
+    "T....=........=.......=......T",
+    "T....=........=.......=......T",
+    "T.............=..............T",
+    "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"
+  ],
+  "warps": [
+    {
+      "tileX": 14,
+      "tileY": 0,
+      "targetMap": "farm",
+      "targetTileX": 5,
+      "targetTileY": 28
+    },
+    {
+      "tileX": 5,
+      "tileY": 11,
+      "targetMap": "store",
+      "targetTileX": 5,
+      "targetTileY": 7
+    }
+  ]
+}

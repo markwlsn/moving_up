@@ -1,0 +1,66 @@
+[
+  {
+    "id": "kapilya",
+    "name": "Restoration ng lumang Kapilya",
+    "english": "Chapel Roof & Altar Restoration",
+    "desc": "Restore the leaky roof and whitewash the walls of the historic barrio chapel so the community can gather and celebrate weddings.",
+    "lead": "Lola Remedios & Mang Ambo",
+    "cost": 500,
+    "requiredItems": [
+      { "id": "palay", "name": "Palay", "count": 10 },
+      { "id": "kamote", "name": "Kamote", "count": 15 }
+    ],
+    "donatedCost": 0,
+    "donatedItems": {},
+    "completed": false,
+    "reward": "Unlocks wedding ceremonies and chapel choir blessing events."
+  },
+  {
+    "id": "tulay",
+    "name": "Kumpuni ng Tulay sa Ilog",
+    "english": "River Bridge Timber Repair",
+    "desc": "Reinforce the old wooden bridge crossing Maliwanag River, securing the path for trade carts and creating a scenic sunset promenade.",
+    "lead": "Mang Berting & Jericho",
+    "cost": 800,
+    "requiredItems": [
+      { "id": "kalabasa", "name": "Kalabasa", "count": 10 },
+      { "id": "sitaw", "name": "Sitaw", "count": 10 }
+    ],
+    "donatedCost": 0,
+    "donatedItems": {},
+    "completed": false,
+    "reward": "Unlocks the romantic riverside walking path and date spot."
+  },
+  {
+    "id": "court",
+    "name": "Pintura at Ring ng Basketbolan",
+    "english": "Barangay Basketball Court Refurbishment",
+    "desc": "Resurface the cracked concrete court, install new fiberglass backboards and solar lights for the barrio youth league.",
+    "lead": "Nicole & Joshua",
+    "cost": 600,
+    "requiredItems": [
+      { "id": "mais", "name": "Mais", "count": 15 },
+      { "id": "talong", "name": "Talong", "count": 10 }
+    ],
+    "donatedCost": 0,
+    "donatedItems": {},
+    "completed": false,
+    "reward": "Unlocks evening community games and boost friendship with youth."
+  },
+  {
+    "id": "farmhouse",
+    "name": "Pagpapalawak ng Bahay sa Bukid",
+    "english": "Farmhouse Expansion (Bukid ni Lolo)",
+    "desc": "Add a spacious master bedroom, nursery room, and polished mahogany wood floors to welcome a spouse and children.",
+    "lead": "Mang Ambo",
+    "cost": 1500,
+    "requiredItems": [
+      { "id": "palay", "name": "Palay", "count": 20 },
+      { "id": "kalabasa", "name": "Kalabasa", "count": 15 }
+    ],
+    "donatedCost": 0,
+    "donatedItems": {},
+    "completed": false,
+    "reward": "Unlocks marriage proposal, spouse move-in, and raising up to 2 children."
+  }
+]

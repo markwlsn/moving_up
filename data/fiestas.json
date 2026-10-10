@@ -1,0 +1,38 @@
+[
+  {
+    "id": "flores",
+    "name": "Flores Festival",
+    "seasonPart": "early_taginit",
+    "day": 20,
+    "theme": "Flower Offering & Youth Gathering",
+    "desc": "The village plaza is draped with sampaguita and gumamela arches. Villagers wear light barongs and baro't saya for community blessings and traditional games.",
+    "activities": ["Altar Flower Offering", "Pabitin & Palo Sebo Games", "Afternoon Plaza Serenade"]
+  },
+  {
+    "id": "ani",
+    "name": "Pista ng Ani",
+    "seasonPart": "late_taginit",
+    "day": 20,
+    "theme": "Grand Harvest Contest",
+    "desc": "Farmers from across the valley bring their proudest baskets of palay, kalabasa, and kamote to the plaza stage to compete for the golden harvest ribbon.",
+    "activities": ["Harvest Basket Weigh-in", "Kakanin Food Fair", "Best Produce Ceremony"]
+  },
+  {
+    "id": "bayanihan",
+    "name": "Araw ng Bayanihan",
+    "seasonPart": "early_tagulan",
+    "day": 20,
+    "theme": "Community Feast & Boodle Fight",
+    "desc": "Long banana leaves are laid across plaza banquet tables piled with steamed rice, grilled vegetables, and fresh fruits. Everyone eats together with their hands.",
+    "activities": ["Communal Boodle Fight", "Neighbor Story Circle", "Bayanihan Project Pledge"]
+  },
+  {
+    "id": "barangay",
+    "name": "Barangay Fiesta Maliwanag",
+    "seasonPart": "late_tagulan",
+    "day": 20,
+    "theme": "Grand Year-End Fiesta",
+    "desc": "Bright banderitas flutter overhead, string lights illuminate the plaza at night, and acoustic guitars fill the air with joy and romance as the community dances.",
+    "activities": ["Grand Barrio Procession", "Evening Fiesta Dance", "Romance Lantern Release"]
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "game": {
+    "title": "Ani sa Nayon",
+    "internalWidth": 480,
+    "internalHeight": 270,
+    "ticksPerSecond": 60,
+    "letterboxColor": "#1b1b1b",
+    "startMap": "farm"
+  },
+  "player": {
+    "size": 14,
+    "speed": 80,
+    "color": "#e8c170",
+    "outlineColor": "#5a3e1b"
+  },
+  "clock": {
+    "wakeHour": 4,
+    "realSecondsPerGameMinute": 0.6,
+    "lateHour": 24,
+    "passOutHour": 26
+  },
+  "energy": {
+    "max": 100,
+    "exhaustedSpeedMultiplier": 0.6
+  },
+  "sleep": {
+    "restoreBeforeLate": 1.0,
+    "restoreAfterLate": 0.75,
+    "restorePassOut": 0.5,
+    "passOutMoneyPenaltyPercent": 10,
+    "fadeSeconds": 0.6,
+    "holdSeconds": 1.4
+  },
+  "farm": {
+    "tilledColor": "#5e3b1c",
+    "wateredColor": "#3b2410",
+    "seedColor": "#e0c080",
+    "plantColor": "#3e8e3e",
+    "cursorColor": "rgba(255,255,255,0.8)"
+  },
+  "weather": {
+    "rainTint": "rgba(30,50,90,0.25)",
+    "rainColor": "rgba(180,200,255,0.6)",
+    "rainDrops": 90
+  },
+  "hud": {
+    "textColor": "#ffffff",
+    "panelColor": "rgba(30,20,10,0.7)",
+    "lateColor": "#ffb347",
+    "energyColor": "#7ed957",
+    "energyLowColor": "#ff6b5b",
+    "energyBackColor": "#3a2a1a",
+    "rainLabelColor": "#9cc7ff",
+    "sunLabelColor": "#ffe08a",
+    "harvestColor": "#c8f7a0",
+    "toastSeconds": 2.0
+  },
+  "debug": {
+    "visibleOnStart": true,
+    "textColor": "#ffffff",
+    "panelColor": "rgba(0,0,0,0.55)",
+    "drainAmount": 10
+  }
+}

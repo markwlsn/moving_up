@@ -1,0 +1,6 @@
+[
+  { "id": "hoe",    "name": "Hoe",          "energyCost": 2 },
+  { "id": "can",    "name": "Watering Can", "energyCost": 1 },
+  { "id": "sickle", "name": "Sickle",       "energyCost": 1 },
+  { "id": "seeds",  "name": "Seed Bag",     "energyCost": 0 }
+]

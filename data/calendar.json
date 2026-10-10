@@ -1,0 +1,10 @@
+{
+  "daysPerPart": 28,
+  "parts": [
+    { "id": "early_taginit", "name": "Early Tag-init", "season": "Tag-init", "color": "#f2b640", "rainChance": 0.08 },
+    { "id": "late_taginit",  "name": "Late Tag-init",  "season": "Tag-init", "color": "#e8893a", "rainChance": 0.15 },
+    { "id": "early_tagulan", "name": "Early Tag-ulan", "season": "Tag-ulan", "color": "#5fa3d9", "rainChance": 0.55 },
+    { "id": "late_tagulan",  "name": "Late Tag-ulan",  "season": "Tag-ulan", "color": "#4a7fb8", "rainChance": 0.45 }
+  ],
+  "weekdays": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+}

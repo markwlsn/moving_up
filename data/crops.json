@@ -1,0 +1,10 @@
+[
+  { "id": "palay",    "name": "Palay",    "english": "Rice",          "seasons": ["early_tagulan", "late_tagulan"], "growDays": 10, "regrowDays": null, "seedPrice": 30, "sellPrice": 90,  "color": "#e6d36a" },
+  { "id": "kamote",   "name": "Kamote",   "english": "Sweet potato",  "seasons": ["early_taginit", "late_taginit"], "growDays": 6,  "regrowDays": null, "seedPrice": 20, "sellPrice": 55,  "color": "#a0522d" },
+  { "id": "talong",   "name": "Talong",   "english": "Eggplant",      "seasons": ["early_taginit", "late_taginit"], "growDays": 8,  "regrowDays": 3,    "seedPrice": 35, "sellPrice": 40,  "color": "#6a2c91" },
+  { "id": "sitaw",    "name": "Sitaw",    "english": "String beans",  "seasons": ["early_tagulan", "late_tagulan"], "growDays": 7,  "regrowDays": 3,    "seedPrice": 30, "sellPrice": 35,  "color": "#4caf50" },
+  { "id": "kalabasa", "name": "Kalabasa", "english": "Squash",        "seasons": ["late_taginit", "early_tagulan"], "growDays": 9,  "regrowDays": null, "seedPrice": 40, "sellPrice": 120, "color": "#f28c28" },
+  { "id": "mais",     "name": "Mais",     "english": "Corn",          "seasons": ["early_tagulan", "late_tagulan"], "growDays": 8,  "regrowDays": null, "seedPrice": 25, "sellPrice": 70,  "color": "#f4d03f" },
+  { "id": "ampalaya", "name": "Ampalaya", "english": "Bitter gourd",  "seasons": ["late_tagulan", "early_taginit"], "growDays": 7,  "regrowDays": 4,    "seedPrice": 35, "sellPrice": 45,  "color": "#7bc043" },
+  { "id": "okra",     "name": "Okra",     "english": "Okra",          "seasons": ["early_taginit", "late_taginit"], "growDays": 5,  "regrowDays": 2,    "seedPrice": 20, "sellPrice": 25,  "color": "#9acd32" }
+]

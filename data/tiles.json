@@ -1,0 +1,18 @@
+{
+  "grass":     { "color": "#7cae5a", "altColor": "#76a755", "solid": false, "tillable": true },
+  "path":      { "color": "#c9a66b", "solid": false },
+  "soil":      { "color": "#8b5a2b", "altColor": "#82532a", "solid": false, "tillable": true },
+  "tree":      { "color": "#2f6b2f", "detailColor": "#244f24", "solid": true },
+  "house":     { "color": "#b5651d", "detailColor": "#8a4a14", "solid": true },
+  "door":      { "color": "#5a3a1a", "solid": false },
+  "fence":     { "color": "#d2b48c", "detailColor": "#a08060", "solid": true },
+  "water":     { "color": "#3a7bd5", "altColor": "#4686de", "solid": true },
+  "rock":      { "color": "#8a8a8a", "detailColor": "#6e6e6e", "solid": true },
+  "kaing":     { "color": "#a86b32", "detailColor": "#6d4118", "solid": true, "action": "shipping" },
+  "bayanihan": { "color": "#c49a45", "detailColor": "#fff8e1", "solid": true, "action": "bayanihan" },
+  "floor":     { "color": "#d29c62", "altColor": "#ca945a", "solid": false },
+  "wall":      { "color": "#5c3d28", "detailColor": "#462e1e", "solid": true },
+  "bed":       { "color": "#a33835", "detailColor": "#f0ede6", "solid": true, "action": "sleep" },
+  "counter":   { "color": "#8a5829", "detailColor": "#5e3a15", "solid": true, "action": "shop" },
+  "rug":       { "color": "#336688", "solid": false }
+}

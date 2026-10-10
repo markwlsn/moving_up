@@ -1,0 +1,513 @@
+[
+  {
+    "id": "jericho",
+    "name": "Jericho",
+    "tier": "romance",
+    "gender": "male",
+    "role": "Artisan Woodworker",
+    "personality": "Quiet, observant craftsman who expresses love through handmade things rather than big speeches.",
+    "loveLanguage": "acts_of_service",
+    "favoriteGift": "kamote",
+    "likedGifts": ["kapeng_barako", "pandesal"],
+    "dislikedGifts": ["ampalaya"],
+    "color": "#8d5b4c",
+    "shirtColor": "#3e5f8a",
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 10, "y": 14, "action": "Working at woodshop" },
+      "afternoon": { "map": "village", "x": 14, "y": 15, "action": "Resting near plaza fountain" },
+      "evening": { "map": "village", "x": 10, "y": 14, "action": "Sharpening carving chisels" }
+    },
+    "dialogue": {
+      "intro": "Good morning. You're Lolo's grandchild, right? He spoke proudly of your work in Manila. I'm Jericho.",
+      "default": "Working with hardwood takes patience. You can't rush the grain, just like you can't rush crops.",
+      "season_taginit": "The heat dries the timber nicely, but keep yourself hydrated, okay?",
+      "season_tagulan": "Rainy days are quiet in the shop. Perfect for delicate wood joinery.",
+      "gift_fav": "Salamat! Lolo used to roast sweet kamote over wood shavings for us. This brings back warm memories.",
+      "gift_like": "Salamat, this will keep my energy up while sanding today.",
+      "gift_dislike": "Uh... salamat, but bitter melon isn't really my favorite flavor.",
+      "crush": "I carved this small wooden leaf keychain yesterday... I was thinking of your farm while making it.",
+      "dating": "I like spending quiet afternoons with you. You don't make me feel pressured to talk constantly.",
+      "jowa": "Mahal kita. Knowing you're waiting for me at Bukid ni Lolo makes every piece of wood easier to carve."
+    }
+  },
+  {
+    "id": "miguel",
+    "name": "Miguel",
+    "tier": "romance",
+    "gender": "male",
+    "role": "Tech Freelancer",
+    "personality": "Former Manila BPO worker who moved back for peace of mind. Fast talker, big dreamer, values honest communication.",
+    "loveLanguage": "words_of_affirmation",
+    "favoriteGift": "bibingka",
+    "likedGifts": ["kapeng_barako", "mais"],
+    "dislikedGifts": ["talong"],
+    "color": "#4a6984",
+    "shirtColor": "#d4af37",
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "store", "x": 7, "y": 4, "action": "Checking pocket WiFi at store" },
+      "afternoon": { "map": "village", "x": 20, "y": 13, "action": "Working on laptop under tree" },
+      "evening": { "map": "store", "x": 8, "y": 4, "action": "Drinking coffee at counter" }
+    },
+    "dialogue": {
+      "intro": "Hey! Welcome back to the barrio! I'm Miguel. Escaped the Ayala traffic two years ago and never looked back.",
+      "default": "Remote work from a province beats a 3-hour EDSA commute any day. Fresh air boosts productivity by 200%.",
+      "season_taginit": "Air-con is expensive, so I set up my workspace right by the river breeze.",
+      "season_tagulan": "Brownouts during storms are tough on deadlines, but candlelight hits differently.",
+      "gift_fav": "No way, fresh warm bibingka?! You are officially my favorite person in Barangay Maliwanag!",
+      "gift_like": "Salamat! Just what I needed before my next Zoom sync.",
+      "gift_dislike": "Eggplant? Ah, trauma from childhood tortang talong, haha. Appreciate the thought though!",
+      "crush": "My laptop battery died an hour ago, but I stayed in the plaza just hoping you'd walk by.",
+      "dating": "Let's grab barako coffee later. No phones, just us talking about everything.",
+      "jowa": "You're my home, not Manila, not any high-rise. Just you and our barrio."
+    }
+  },
+  {
+    "id": "joshua",
+    "name": "Joshua",
+    "tier": "romance",
+    "gender": "male",
+    "role": "Barangay Varsity & Mechanic",
+    "personality": "Energetic, reliable, loves 3-on-3 pickup games and fixing neighbors' tricycles.",
+    "loveLanguage": "quality_time",
+    "favoriteGift": "pandesal",
+    "likedGifts": ["mais", "kamote"],
+    "dislikedGifts": ["okra"],
+    "color": "#c0392b",
+    "shirtColor": "#2c3e50",
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 22, "y": 8, "action": "Shooting hoops at the court" },
+      "afternoon": { "map": "village", "x": 4, "y": 18, "action": "Fixing a motorcycle clutch" },
+      "evening": { "map": "village", "x": 22, "y": 8, "action": "Evening scrimmage with barrio youth" }
+    },
+    "dialogue": {
+      "intro": "Uy, kamusta! I'm Joshua. Need a hand hauling fertilizer or tuning up an engine? Call me anytime!",
+      "default": "Physical labor builds character and appetite. Farming and basketball aren't that different—it's all hustle.",
+      "season_taginit": "Perfect weather for afternoon basketball! Drop by the court and watch my crossover!",
+      "season_tagulan": "Muddy roads test your driving reflexes. Had to pull Mang Berting's carabao cart out earlier.",
+      "gift_fav": "Init pa ng pan de sal! Grabe, salamat! I can down ten of these after morning drills.",
+      "gift_like": "Salamat! Carbs for recovery after a long game.",
+      "gift_dislike": "Slimy okra? Pass muna ako diyan, tropa!",
+      "crush": "I made a three-pointer earlier and looked straight at you. Did you catch it?",
+      "dating": "Let's jog down to the river road tomorrow morning. I'll match your pace, promise.",
+      "jowa": "You're my MVP. Every game I play and every motor I fix, I do it thinking of our future."
+    }
+  },
+  {
+    "id": "rafael",
+    "name": "Rafael",
+    "tier": "romance",
+    "gender": "male",
+    "role": "Elementary Teacher & Guitarist",
+    "personality": "Gentle, thoughtful teacher who loves folk songs, poetry, and storytelling for barrio kids.",
+    "loveLanguage": "words_of_affirmation",
+    "favoriteGift": "kalabasa",
+    "likedGifts": ["okra", "pandesal"],
+    "dislikedGifts": ["kapeng_barako"],
+    "color": "#27ae60",
+    "shirtColor": "#ecf0f1",
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 16, "y": 6, "action": "Preparing lessons at school hall" },
+      "afternoon": { "map": "village", "x": 15, "y": 14, "action": "Playing kundiman guitar at plaza" },
+      "evening": { "map": "village", "x": 16, "y": 6, "action": "Grading papers by lamp" }
+    },
+    "dialogue": {
+      "intro": "Magandang araw. I'm Rafael, teacher at Maliwanag Elementary. Your Lolo used to donate seeds for our school garden.",
+      "default": "Teaching children that food comes from patient soil, not plastic grocery shelves, is our finest lesson.",
+      "season_taginit": "The children's laughter echoes across the plaza all afternoon during summer break.",
+      "season_tagulan": "Rain on corrugated iron roofs sounds like gentle percussion for acoustic guitar.",
+      "gift_fav": "Golden kalabasa! The kids and I will make hearty squash soup for lunch today. Maraming salamat po!",
+      "gift_like": "Salamat! Healthy food keeps my voice clear for singing lessons.",
+      "gift_dislike": "Coffee makes my hands shake on the guitar strings, but thank you for the gesture.",
+      "crush": "I wrote a gentle acoustic chord progression this week... the melody sounds like your laughter.",
+      "dating": "Would you sit with me by the chapel steps while the sun sets? I'll play your favorite song.",
+      "jowa": "You've brought color and melody into my quiet life. Ikaw ang aking himig."
+    }
+  },
+  {
+    "id": "enzo",
+    "name": "Enzo",
+    "tier": "romance",
+    "gender": "male",
+    "role": "Barista & Kapihan Owner",
+    "personality": "Witty, observant, loves brewing artisanal local blends and teasing people he likes.",
+    "loveLanguage": "receiving_gifts",
+    "favoriteGift": "kapeng_barako",
+    "likedGifts": ["sitaw", "pandesal"],
+    "dislikedGifts": ["palay"],
+    "color": "#795548",
+    "shirtColor": "#d7ccc8",
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 8, "y": 14, "action": "Roasting coffee beans" },
+      "afternoon": { "map": "village", "x": 8, "y": 14, "action": "Serving iced brews to neighbors" },
+      "evening": { "map": "store", "x": 6, "y": 5, "action": "Chatting with Aling Nena" }
+    },
+    "dialogue": {
+      "intro": "Well, look who finally showed up from the big city. I'm Enzo. If you need real caffeine, you know where to find me.",
+      "default": "Liberica beans from local mountains have a floral aroma you can't fake with instant sachets.",
+      "season_taginit": "Cold-brew season is peak season. Even Kapitan Dan swapped his hot mug for an iced tumbler.",
+      "season_tagulan": "Steaming hot barako in tin cups while rain drums against the window eaves. Peak cozy.",
+      "gift_fav": "Fresh aromatic Barako beans?! Okay, you definitely know the quickest way to my heart.",
+      "gift_like": "Salamat! I'll pair this with our fresh morning roast.",
+      "gift_dislike": "Raw palay? What am I supposed to do with this in a pour-over dripper, grind it into rice milk?",
+      "crush": "I created a secret menu roast named 'Bukid Sunset'... it's sweet with a hint of warm honey. For you.",
+      "dating": "Close down the farm for an hour. Come over to the kapihan, it's my treat.",
+      "jowa": "You're the only person who can distract me while pulling an espresso shot. Mahal kita."
+    }
+  },
+
+  {
+    "id": "maya",
+    "name": "Maya",
+    "tier": "romance",
+    "gender": "female",
+    "role": "Organic Botanist",
+    "personality": "Passionate about indigenous Philippine crops, natural soil health, and gentle sustainable farming.",
+    "loveLanguage": "acts_of_service",
+    "favoriteGift": "palay",
+    "likedGifts": ["kamote", "kalabasa"],
+    "dislikedGifts": ["pandesal"],
+    "color": "#2e7d32",
+    "shirtColor": "#a5d6a7",
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 25, "y": 15, "action": "Inspecting river flora" },
+      "afternoon": { "map": "village", "x": 12, "y": 10, "action": "Testing community compost heap" },
+      "evening": { "map": "village", "x": 25, "y": 15, "action": "Pressing dried herbarium specimens" }
+    },
+    "dialogue": {
+      "intro": "Hello! I'm Maya. I heard you're restoring Bukid ni Lolo! His soil has decades of rich organic history.",
+      "default": "Notice how the earth smells sweet after rain? That's geosmin produced by beneficial actinobacteria.",
+      "season_taginit": "Mulching the beds with rice straw preserves precious moisture during the dry months.",
+      "season_tagulan": "Tag-ulan brings abundant green growth! Just watch out for waterlogging in lower plots.",
+      "gift_fav": "Heirloom palay! The grains are so full and fragrant. Maraming salamat! I will treasure every seed.",
+      "gift_like": "Salamat! Healthy, naturally grown produce warms my heart.",
+      "gift_dislike": "Processed white flour isn't really my preference, but thank you for thinking of me.",
+      "crush": "I caught myself daydreaming about cross-pollinating our fields together... is that weird?",
+      "dating": "Come walk with me through the bamboo groves. I want to show you rare wild orchids in bloom.",
+      "jowa": "My roots are planted deeply with yours now. Through drought and storm, I'm by your side."
+    }
+  },
+  {
+    "id": "bianca",
+    "name": "Bianca",
+    "tier": "romance",
+    "gender": "female",
+    "role": "Sari-Sari Co-Manager & Creator",
+    "personality": "Aling Nena's daughter. Spirited, tech-savvy, runs the store's social page and dreams of promoting barrio culture.",
+    "loveLanguage": "receiving_gifts",
+    "favoriteGift": "talong",
+    "likedGifts": ["pandesal", "bibingka"],
+    "dislikedGifts": ["ampalaya"],
+    "color": "#9c27b0",
+    "shirtColor": "#f8bbd0",
+    "homeMap": "store",
+    "schedule": {
+      "morning": { "map": "store", "x": 4, "y": 3, "action": "Stocking snack shelves" },
+      "afternoon": { "map": "village", "x": 13, "y": 12, "action": "Filming barrio life vlog at plaza" },
+      "evening": { "map": "store", "x": 5, "y": 3, "action": "Balancing day's cashier ledger" }
+    },
+    "dialogue": {
+      "intro": "Huy, hello! I'm Bianca! If Mama Nena tries to sell you last month's candies, tell me, okay? Haha, joke lang!",
+      "default": "Running a sari-sari store means knowing everyone's business, favorite snacks, and daily heartaches.",
+      "season_taginit": "Ice candy sales are through the roof! Mango and melon flavors are flying off the freezer.",
+      "season_tagulan": "People gather under our store awning when it pours, sharing stories while waiting out the rain.",
+      "gift_fav": "Glossy purple talong! Mama's making tortang talong tonight and this is perfect! Salamat!",
+      "gift_like": "Salamat! Snack time is always a blessing during long store shifts.",
+      "gift_dislike": "Ew, ampalaya?! Are you punishing me for something? Haha, bitter masyado!",
+      "crush": "I edited my vlog today and realized your smile made it into three different clips. Oops!",
+      "dating": "Let's share a halo-halo at the plaza and watch the stars. Just the two of us.",
+      "jowa": "You're my favorite notification, my favorite person, my forever jowa. Kinikilig ako!"
+    }
+  },
+  {
+    "id": "tala",
+    "name": "Tala",
+    "tier": "romance",
+    "gender": "female",
+    "role": "Barangay Clinic Nurse",
+    "personality": "Devoted night-shift nurse who loves midnight stargazing, quiet herbal teas, and caring for others.",
+    "loveLanguage": "quality_time",
+    "favoriteGift": "ampalaya",
+    "likedGifts": ["bibingka", "kapeng_barako"],
+    "dislikedGifts": ["mais"],
+    "color": "#009688",
+    "shirtColor": "#e0f2f1",
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 18, "y": 10, "action": "Sleeping after clinic night shift" },
+      "afternoon": { "map": "village", "x": 18, "y": 10, "action": "Reviewing medical supplies" },
+      "evening": { "map": "village", "x": 15, "y": 2, "action": "Stargazing at north overlook" }
+    },
+    "dialogue": {
+      "intro": "Good day. I'm Tala, the rural health nurse. Please don't overwork yourself on the farm—sunstroke is serious.",
+      "default": "The clinic is quiet today, which is always good news for the barrio. Prevention is the best medicine.",
+      "season_taginit": "Drink plenty of water and wear your salakot. Farm heat can drain electrolytes fast.",
+      "season_tagulan": "Dengue prevention is our top priority during rainy season. Make sure no water ponds stagnate.",
+      "gift_fav": "Fresh ampalaya! Excellent for lowering blood sugar and full of antioxidants. Salamat po!",
+      "gift_like": "Salamat! A warm snack after a long clinical shift is comforting.",
+      "gift_dislike": "Corn kernels get stuck in teeth during consultations, haha. Thank you though.",
+      "crush": "My name means star... but whenever you look at me, you're the one that shines.",
+      "dating": "The night sky is crystal clear tonight. Come stargaze with me by the northern hill.",
+      "jowa": "You healed my exhaustion with your warmth. Ikaw ang aking tala sa dilim."
+    }
+  },
+  {
+    "id": "nicole",
+    "name": "Nicole",
+    "tier": "romance",
+    "gender": "female",
+    "role": "SK Youth Chairperson",
+    "personality": "Energetic community organizer who champions barangay youth programs, recycling, and sports fests.",
+    "loveLanguage": "words_of_affirmation",
+    "favoriteGift": "mais",
+    "likedGifts": ["sitaw", "pandesal"],
+    "dislikedGifts": ["talong"],
+    "color": "#e67e22",
+    "shirtColor": "#fdfefe",
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 14, "y": 8, "action": "Organizing youth recycling drive" },
+      "afternoon": { "map": "village", "x": 20, "y": 8, "action": "Planning inter-purok basketball league" },
+      "evening": { "map": "village", "x": 14, "y": 8, "action": "Drafting resolution at barangay hall" }
+    },
+    "dialogue": {
+      "intro": "Hi there! I'm Nicole, SK Chair! We're planning bayanihan clean-up drives this month. Count you in?",
+      "default": "Youth leadership isn't just about trophies; it's about making sure no kid in our barrio gets left behind.",
+      "season_taginit": "Summer sports clinic kicks off next week! The court is going to be packed!",
+      "season_tagulan": "We organized youth disaster preparedness drills. Maliwanag stays ready!",
+      "gift_fav": "Sweet yellow mais! Steamed corn on the cob is our go-to meeting snack. Salamat nang marami!",
+      "gift_like": "Salamat! Great fuel between committee hearings.",
+      "gift_dislike": "Talong? Not my cup of tea, but your support means a lot anyway!",
+      "crush": "I had a 20-minute speech prepared, but when you walked into the hall, my brain completely blanked.",
+      "dating": "Let's take a break from planning meetings and just sit together at the plaza bench.",
+      "jowa": "With you beside me, I feel like we could lift our entire barangay into greatness. Mahal kita."
+    }
+  },
+  {
+    "id": "andrea",
+    "name": "Andrea",
+    "tier": "romance",
+    "gender": "female",
+    "role": "Baker & Food Artisan",
+    "personality": "Warm, generous, loves baking local delicacies, pan de sal, and feeding everyone in sight.",
+    "loveLanguage": "acts_of_service",
+    "favoriteGift": "kalabasa",
+    "likedGifts": ["pandesal", "kamote"],
+    "dislikedGifts": ["ampalaya"],
+    "color": "#d35400",
+    "shirtColor": "#ffe0b2",
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 6, "y": 14, "action": "Baking morning pan de sal batch" },
+      "afternoon": { "map": "village", "x": 6, "y": 14, "action": "Testing new cassava cake recipe" },
+      "evening": { "map": "village", "x": 14, "y": 14, "action": "Delivering bread baskets to elders" }
+    },
+    "dialogue": {
+      "intro": "Uy, kain tayo! I'm Andrea. The bakery oven has been hot since 3:30 AM! You look hungry, take some bread!",
+      "default": "Baking is pure chemistry and pure love. If you're stressed, the dough feels it and won't rise right.",
+      "season_taginit": "Hot oven plus summer heat is an intense workout! But people need their afternoon meryenda.",
+      "season_tagulan": "Nothing warms the soul during a downpour like hot pan de sal dipped in rich coffee.",
+      "gift_fav": "Sweet squash! I can make kalabasa bread and squash custard tarts with this! Salamat!",
+      "gift_like": "Salamat! Fresh ingredients make all the difference in my kitchen.",
+      "gift_dislike": "Bitter melon in pastries? Even my creativity has limits, haha!",
+      "crush": "I accidentally baked a heart-shaped loaf this morning... guess who I was thinking of?",
+      "dating": "Come into the bakery kitchen. I want us to knead dough and bake cookies together.",
+      "jowa": "My heart is the warmest oven in the world, and it's filled entirely with love for you."
+    }
+  },
+
+  {
+    "id": "kapitan_dan",
+    "name": "Kapitan Dan",
+    "tier": "core",
+    "gender": "male",
+    "role": "Barangay Captain",
+    "favoriteGift": "palay",
+    "likedGifts": ["kapeng_barako", "pandesal"],
+    "dislikedGifts": ["kamote"],
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 14, "y": 5, "action": "Presiding at Barangay Hall" },
+      "afternoon": { "map": "village", "x": 14, "y": 13, "action": "Inspecting barrio roads" },
+      "evening": { "map": "village", "x": 14, "y": 5, "action": "Reviewing project permits" }
+    },
+    "dialogue": {
+      "intro": "Welcome, anak. Your Lolo was the pillar of this nayon. We are glad you have chosen to walk in his footsteps.",
+      "default": "A barrio is only as strong as its bayanihan spirit. If you need anything for the farm, the council is here.",
+      "gift_fav": "Palay! The foundation of our people's sustenance. Salamat, anak. May your harvest be bountiful.",
+      "gift_like": "Salamat, this will give me strength during our barangay sessions."
+    }
+  },
+  {
+    "id": "aling_nena",
+    "name": "Aling Nena",
+    "tier": "core",
+    "gender": "female",
+    "role": "Sari-Sari Store Matriarch",
+    "favoriteGift": "kapeng_barako",
+    "likedGifts": ["talong", "kamote"],
+    "dislikedGifts": ["palay"],
+    "homeMap": "store",
+    "schedule": {
+      "morning": { "map": "store", "x": 5, "y": 2, "action": "Behind the store counter" },
+      "afternoon": { "map": "store", "x": 5, "y": 2, "action": "Behind the store counter" },
+      "evening": { "map": "store", "x": 5, "y": 2, "action": "Counting daily profits" }
+    },
+    "dialogue": {
+      "intro": "Aba, nandito na pala ang apo ni Lolo! Bili ka ng mga pananim at meryenda dito sa tindahan!",
+      "default": "Kung may kailangan ka, wag kang mahihiyang lumapit. Walang utang muna ha, cash basis tayo!",
+      "gift_fav": "Aromatic Barako! Naku, pampagising sa maghapong pagbabantay ng tindahan. Salamat!",
+      "gift_like": "Maraming salamat! Pang-ulam namin mamayang gabi."
+    }
+  },
+  {
+    "id": "mang_ambo",
+    "name": "Mang Ambo",
+    "tier": "core",
+    "gender": "male",
+    "role": "Master Carpenter",
+    "favoriteGift": "kamote",
+    "likedGifts": ["pandesal", "kapeng_barako"],
+    "dislikedGifts": ["ampalaya"],
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 11, "y": 16, "action": "Checking lumber supply" },
+      "afternoon": { "map": "village", "x": 11, "y": 16, "action": "Inspecting community project structures" },
+      "evening": { "map": "store", "x": 6, "y": 6, "action": "Resting with neighbors" }
+    },
+    "dialogue": {
+      "intro": "Kumusta, bata. Ako si Ambo. Ako ang humawak ng karpinterya sa lumang bahay ng Lolo mo noong araw.",
+      "default": "Kung may sira ang tulay o kapilya, bayanihan lang ang katapat niyan. Kahoy, pako, at pagtutulungan.",
+      "gift_fav": "Nilagang kamote! Paboritong meryenda ng mga karpintero. Salamat sa malasakit, bata!",
+      "gift_like": "Salamat! Pampatibay ng bisig sa pagmamartilyo."
+    }
+  },
+  {
+    "id": "lola_remedios",
+    "name": "Lola Remedios",
+    "tier": "core",
+    "gender": "female",
+    "role": "Barrio Elder & Storyteller",
+    "favoriteGift": "bibingka",
+    "likedGifts": ["kalabasa", "kamote"],
+    "dislikedGifts": ["kapeng_barako"],
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 15, "y": 6, "action": "Praying at the kapilya" },
+      "afternoon": { "map": "village", "x": 15, "y": 13, "action": "Sitting on shaded plaza bench" },
+      "evening": { "map": "village", "x": 15, "y": 6, "action": "Lighting candles at kapilya" }
+    },
+    "dialogue": {
+      "intro": "Halika rito, apo. Kamukhang-kamukha mo ang iyong Lolo noong kabataan niya. Pagpalain ka ng Poong Maykapal.",
+      "default": "Ang lupang ito ay pinagyaman ng pawis ng ating mga ninuno. Mahalin mo ang lupa, at mamahalin ka nito pabalik.",
+      "gift_fav": "Malambot na bibingka! Tamis at alat na parang biyaya ng buhay. Salamat sa iyong kabaitan, apo.",
+      "gift_like": "Salamat, apo. Kay sarap ng mga gulay mula sa iyong bukid."
+    }
+  },
+  {
+    "id": "doc_santos",
+    "name": "Doc Santos",
+    "tier": "core",
+    "gender": "male",
+    "role": "Rural Health Physician",
+    "favoriteGift": "ampalaya",
+    "likedGifts": ["okra", "sitaw"],
+    "dislikedGifts": ["bibingka"],
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 18, "y": 11, "action": "Consulting patients at clinic" },
+      "afternoon": { "map": "village", "x": 18, "y": 11, "action": "Dispensing vitamins to children" },
+      "evening": { "map": "village", "x": 14, "y": 14, "action": "Evening walk around plaza" }
+    },
+    "dialogue": {
+      "intro": "Good day. I am Dr. Santos. Remember, if you pass out from exhaustion past 2 AM, Tala and I have to fetch you!",
+      "default": "Balanced nutrition and adequate sleep are 90% of healthcare. Eat what you grow, farmer.",
+      "gift_fav": "Ampalaya! Nature's insulin. Highly recommended for overall cardiovascular wellness.",
+      "gift_like": "Salamat! Good green fiber for the body."
+    }
+  },
+  {
+    "id": "mang_berting",
+    "name": "Mang Berting",
+    "tier": "core",
+    "gender": "male",
+    "role": "Veteran Rice Farmer",
+    "favoriteGift": "palay",
+    "likedGifts": ["mais", "kapeng_barako"],
+    "dislikedGifts": ["bibingka"],
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 24, "y": 18, "action": "Tending rice paddies" },
+      "afternoon": { "map": "village", "x": 24, "y": 18, "action": "Resting carabao under shade" },
+      "evening": { "map": "village", "x": 14, "y": 15, "action": "Swapping farming tips at plaza" }
+    },
+    "dialogue": {
+      "intro": "Uy, apo ni Pareng Lolo! Ako si Berting. Kasama ako ng Lolo mo noong unang inilatag ang irigasyon dito.",
+      "default": "Makinig ka sa hangin at kulay ng ulap. Bago pa pumula ang radar ng TV, alam na ng bukid kung uulan.",
+      "gift_fav": "Gintong butil ng palay! Kitang-kita ang husay ng pag-aalaga. Ipagpatuloy mo iyan!",
+      "gift_like": "Salamat, kaibigan! Pampalakas sa gitna ng matinding init."
+    }
+  },
+  {
+    "id": "nanay_coring",
+    "name": "Nanay Coring",
+    "tier": "core",
+    "gender": "female",
+    "role": "Carinderia Cook",
+    "favoriteGift": "talong",
+    "likedGifts": ["sitaw", "kalabasa"],
+    "dislikedGifts": ["kapeng_barako"],
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 8, "y": 16, "action": "Cooking carinderia cauldrons" },
+      "afternoon": { "map": "village", "x": 8, "y": 16, "action": "Serving lunch to workers" },
+      "evening": { "map": "village", "x": 8, "y": 16, "action": "Washing large woks" }
+    },
+    "dialogue": {
+      "intro": "Kain tayo, apo! Ako si Nanay Coring. Dito kumakain ang buong nayon pagkatapos ng trabaho.",
+      "default": "Sikreto ng masarap na pinakbet? Sariwang ani, kaunting bagoong, at maraming pagmamahal sa pagluluto.",
+      "gift_fav": "Sariwang talong! Sakto, gagawin kong torta at ilalagay sa sinigang mamaya! Salamat!",
+      "gift_like": "Maraming salamat! Diretso sa kaldero para sa meryenda ng mga taga-nayon."
+    }
+  },
+  {
+    "id": "kuya_ruben",
+    "name": "Kuya Ruben",
+    "tier": "core",
+    "gender": "male",
+    "role": "Tricycle Driver",
+    "favoriteGift": "pandesal",
+    "likedGifts": ["kapeng_barako", "mais"],
+    "dislikedGifts": ["kalabasa"],
+    "homeMap": "village",
+    "schedule": {
+      "morning": { "map": "village", "x": 13, "y": 2, "action": "Wiping tricycle windshield" },
+      "afternoon": { "map": "village", "x": 13, "y": 2, "action": "Waiting for passengers at terminal" },
+      "evening": { "map": "store", "x": 7, "y": 5, "action": "Drinking cold softdrinks" }
+    },
+    "dialogue": {
+      "intro": "Sakay na! Ay, ikaw pala ang apo sa bukid. Ako si Ruben, takbuhan kapag may kailangang ihatid sa bayan.",
+      "default": "Maliit man ang tricycle, ito ang tulay ng mga produkto mula nayon papuntang palengke.",
+      "gift_fav": "Mainit na pan de sal! Paborito kong pampalipas-gutom sa biyahe. Salamat, boss!",
+      "gift_like": "Salamat! Ayos pang meryenda habang naghihintay ng pasahero."
+    }
+  },
+
+  { "id": "totoy", "name": "Totoy", "tier": "light", "gender": "male", "role": "Barrio Kid", "favoriteGift": "mais", "homeMap": "village", "schedule": { "morning": { "map": "village", "x": 21, "y": 9 }, "afternoon": { "map": "village", "x": 21, "y": 9 }, "evening": { "map": "village", "x": 21, "y": 9 } }, "dialogue": { "intro": "Kuya/Ate! Panoorin mo shoot ko sa court!", "default": "Gusto ko maging varsity tulad ni Kuya Joshua!" } },
+  { "id": "neneng", "name": "Neneng", "tier": "light", "gender": "female", "role": "Barrio Kid", "favoriteGift": "pandesal", "homeMap": "village", "schedule": { "morning": { "map": "village", "x": 17, "y": 14 }, "afternoon": { "map": "village", "x": 17, "y": 14 }, "evening": { "map": "village", "x": 17, "y": 14 } }, "dialogue": { "intro": "Hello po! May candy po ba kayo?", "default": "Naglalaro po kami ng piko sa plaza!" } },
+  { "id": "aling_marites", "name": "Aling Marites", "tier": "light", "gender": "female", "role": "Plaza Observer", "favoriteGift": "kapeng_barako", "homeMap": "village", "schedule": { "morning": { "map": "village", "x": 13, "y": 13 }, "afternoon": { "map": "village", "x": 13, "y": 13 }, "evening": { "map": "village", "x": 13, "y": 13 } }, "dialogue": { "intro": "Uy mare! Balita ko masipag ka raw magbungkal ng bukid?", "default": "Lahat ng balita sa Maliwanag, dadaan muna sa akin bago sa radyo!" } },
+  { "id": "mang_kanor", "name": "Mang Kanor", "tier": "light", "gender": "male", "role": "Jeepney Driver", "favoriteGift": "pandesal", "homeMap": "village", "schedule": { "morning": { "map": "village", "x": 14, "y": 22 }, "afternoon": { "map": "village", "x": 14, "y": 22 }, "evening": { "map": "village", "x": 14, "y": 22 } }, "dialogue": { "intro": "Biyesta o araw ng palengke, jeep ko ang maaasahan!", "default": "Basta may krudo at kanta sa radyo, tuloy ang biyahe!" } },
+  { "id": "tita_baby", "name": "Tita Baby", "tier": "light", "gender": "female", "role": "Choir Soloist", "favoriteGift": "bibingka", "homeMap": "village", "schedule": { "morning": { "map": "village", "x": 16, "y": 5 }, "afternoon": { "map": "village", "x": 16, "y": 5 }, "evening": { "map": "village", "x": 16, "y": 5 } }, "dialogue": { "intro": "Nag-eensayo kami ng awit para sa susunod na pista!", "default": "Kay sarap umawit kapag masigla ang buong nayon!" } },
+  { "id": "kuya_jojo", "name": "Kuya Jojo", "tier": "light", "gender": "male", "role": "Sound System Tech", "favoriteGift": "mais", "homeMap": "village", "schedule": { "morning": { "map": "village", "x": 19, "y": 14 }, "afternoon": { "map": "village", "x": 19, "y": 14 }, "evening": { "map": "village", "x": 19, "y": 14 } }, "dialogue": { "intro": "Test mic, 1, 2, 3! Handa na ang sound system sa fiesta!", "default": "Kailangan malakas ang tugtog para marinig hanggang dulo ng bukid!" } },
+  { "id": "ate_lanie", "name": "Ate Lanie", "tier": "light", "gender": "female", "role": "Plaza Seamstress", "favoriteGift": "sitaw", "homeMap": "village", "schedule": { "morning": { "map": "village", "x": 11, "y": 12 }, "afternoon": { "map": "village", "x": 11, "y": 12 }, "evening": { "map": "village", "x": 11, "y": 12 } }, "dialogue": { "intro": "Nananahi ako ng mga banderitas para sa kapilya at pista.", "default": "Makukulay na tela ang nagbibigay-buhay sa piyesta ng nayon." } },
+  { "id": "mang_carding", "name": "Mang Carding", "tier": "light", "gender": "male", "role": "River Fisherman", "favoriteGift": "palay", "homeMap": "village", "schedule": { "morning": { "map": "village", "x": 26, "y": 16 }, "afternoon": { "map": "village", "x": 26, "y": 16 }, "evening": { "map": "village", "x": 26, "y": 16 } }, "dialogue": { "intro": "Malinis ang tubig ng ilog kapag maingat ang mga magsasaka sa taas.", "default": "Sagana sa hito at dalag kapag simula ng tag-ulan." } },
+  { "id": "aling_gloria", "name": "Aling Gloria", "tier": "light", "gender": "female", "role": "Flower Vendor", "favoriteGift": "kalabasa", "homeMap": "village", "schedule": { "morning": { "map": "village", "x": 15, "y": 7 }, "afternoon": { "map": "village", "x": 15, "y": 7 }, "evening": { "map": "village", "x": 15, "y": 7 } }, "dialogue": { "intro": "Sampaguita at gumamela para sa kapilya, pabili na po!", "default": "Kay bango ng sariwang bulaklak sa umaga." } },
+  { "id": "tonton", "name": "Tonton", "tier": "light", "gender": "male", "role": "Youth Baller", "favoriteGift": "pandesal", "homeMap": "village", "schedule": { "morning": { "map": "village", "x": 23, "y": 9 }, "afternoon": { "map": "village", "x": 23, "y": 9 }, "evening": { "map": "village", "x": 23, "y": 9 } }, "dialogue": { "intro": "Sana maayos na ang court para tuloy ang liga!", "default": "Game na mamayang alas-singko sa court!" } },
+  { "id": "ate_grace", "name": "Ate Grace", "tier": "light", "gender": "female", "role": "Health Worker", "favoriteGift": "okra", "homeMap": "village", "schedule": { "morning": { "map": "village", "x": 18, "y": 12 }, "afternoon": { "map": "village", "x": 18, "y": 12 }, "evening": { "map": "village", "x": 18, "y": 12 } }, "dialogue": { "intro": "Tala at ako ang nag-iikot para sa bakuna ng mga bata.", "default": "Ingatan ang katawan, wag magpapatuyo ng pawis sa likod!" } },
+  { "id": "lolo_tasyo", "name": "Lolo Tasyo", "tier": "light", "gender": "male", "role": "Retired Postman", "favoriteGift": "kamote", "homeMap": "village", "schedule": { "morning": { "map": "village", "x": 14, "y": 16 }, "afternoon": { "map": "village", "x": 14, "y": 16 }, "evening": { "map": "village", "x": 14, "y": 16 } }, "dialogue": { "intro": "Noong araw, kinakabayo pa namin ang sulat mula sa kabayanan.", "default": "Mabilis man ang cellphone ngayon, iba pa rin ang sulat-kamay mula sa puso." } }
+]
